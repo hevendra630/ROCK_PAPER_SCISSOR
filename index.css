@@ -1,0 +1,99 @@
+body {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  margin: 0;
+}
+
+.H4 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-bottom: 20px; 
+}
+
+.ROCK, .PAPER, .SCISSOR {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: grey;
+  text-align: center;
+  line-height: 100px;
+  color: black;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-left: 20px; 
+  
+}
+marquee{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ROCK:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.PAPER {
+  cursor: grab;
+  transition: 0.5s;
+}
+
+.PAPER:hover {
+  background-color: RED;
+  color: white;
+}
+
+.SCISSOR {
+  cursor: crosshair;
+  transition: 0.5s;
+}
+
+.SCISSOR:hover {
+  background-color: blue;
+  color: white
+  
+}
+.Choice{
+  display: flex;
+  gap: 20PX;                                      /*GAP HERE ACTUALLY WORKS AS GAP BETWEEN ITEMS WITHIN THE DIV*/
+
+}
+H4{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.SCORE-BOARD{
+  display: FLEX;
+  margin-top: 20PX;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.SCORE{
+  margin-right: 20PX;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#USER-SCORE{
+  text-align: CENTER;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40px;
+}
+#COMP-SCORE{
+  text-align: CENTER;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 40PX;
+}
+#MSG{
+  background-color: blue;
+  height: 40px;
+  width: 300px;
+  border-color: black;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  color:white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
